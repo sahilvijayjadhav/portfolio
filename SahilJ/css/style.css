@@ -1,0 +1,343 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    scroll-behavior: smooth;
+    background-color: #000000;
+}
+
+.button span{
+    color: #80806B;
+}
+.logo{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 24px;
+}
+.hero1{
+    padding: 150px 0;
+}
+.hero1>span{
+    position: relative;
+    left: 190px;
+    top: 12px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.hero1 h1{
+
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 900;
+    text-align: center;
+}
+.hero1 h1>span{
+    font-size: 40px;
+    color: #FFBD39;
+}
+.hero1 h2{
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+.hero1 h2>span{
+    color: #FFBD39;
+    font-size: 25px;
+}
+.about-section{
+    height: 550px;
+}
+.about-img img{
+    filter: drop-shadow(5px 0 0 white) 
+    drop-shadow(0 5px 0 white)
+    drop-shadow(-5px 0 0 white) 
+    drop-shadow(0 -5px 0 white);
+}
+.about-img{
+    overflow: hidden;
+}
+.about-me{
+    position: relative;
+}
+.about-me h2{ 
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 900;
+
+}
+.about-me>span{
+    position: absolute;
+    top: -10px;
+    font-size: 35px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.1);
+}
+.about-me>p{
+    font-size: 16px;
+    color: rgb(153, 153, 153);
+    font-weight: 600;
+    line-height: 27px;
+}
+.personal-details>li{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px 10px;
+}
+th{
+    color: #ffffff;
+}
+td{
+    color: rgb(153, 153, 153);
+}
+.Education-card{
+    background-color: #1A1A1A;
+}
+.edu-details,
+.projects-section,
+.skills-section,
+.contact{
+    position: relative;
+}
+.edu-details h2,
+.projects-section h2,
+.skills-section h2,
+.contact h2{
+    text-align: center;
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 900;
+}
+.edu-details>span,
+.projects-section>span,
+.skills-section>span,
+.contact>span{
+    position: absolute;
+    left: 33%;
+    top: -10px;
+    font-size: 38px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.1);
+}
+.Education-card h3{
+    color: #FFBD39;
+    font-size: 26px;
+    font-weight: 800;
+}
+.Education-card h4{
+    font-size: 26px;
+    color: #ffffff;
+}
+.Education-card h5{
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.Education-card h5>span{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #FFBD39;
+}
+.Education-card strong{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #FFBD39;
+}
+.Education-card strong>span{
+    color: rgb(153, 153, 153);
+}
+.card-img, .card-img-bottom, .card-img-top{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: top;
+    transition: 3s all;
+}
+.card-img-top:hover{
+    object-position: bottom;
+}
+.card-body{
+    background-color: #1A1A1A;
+    color: #ffffff;
+}
+.list-group-flush>.list-group-item{
+    
+}
+.list-group-flush>.list-group-item{
+    color: #ffffff;
+    background-color: #1A1A1A;
+}
+.skill{
+    margin: 0 auto 0;
+    width: 80%;
+    height: 300px;
+}
+.skill strong{
+    font-size: 28px;
+    color: #dbdbdb;
+}
+.skill-img{
+    background-color: #1A1A1A;
+}
+.skill-img img{
+    transition: all 300ms ease-in-out;
+}
+.skill-img img:hover{
+    scale: 1.1;
+}
+.contact-form{
+    background-color: #1A1A1A;
+}
+.form-btn{
+    color: #000000;
+    font-weight: 700;
+    transition:all 0.3s ease-in-out;
+}
+.form-btn:hover{
+    background-color: #1A1A1A;
+    border: 2px solid #FFBD39;
+    color: #FFBD39;
+}
+.social{
+    padding: 22px 23px;
+    background-color: #1A1A1A;
+}
+.social i{
+    font-size: 20px;
+}
+footer p{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+footer p span{
+    color: #FFBD39;
+    font-size: 18px;
+    font-weight: 500;
+}
+.myimage2-container{
+    width: 300px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url(../images/background/IMG_0514i.png);
+    background-color: #3C3D37;
+    background-position: top;
+    background-size: 96% 150%;
+    background-repeat: no-repeat;
+    border: 5px solid #FFBD39;
+}
+@media (min-width : 768px) {
+    .main-nav{
+        background-color: transparent;
+    }
+    .hero1 h1{
+        font-size: 80px;
+    }
+    .hero1 h1>span{
+        font-size: 80px;
+    }
+    .hero1 h2,
+    .hero1 h2>span{
+        font-size: 40px;
+    }
+    .about-me h2{
+        font-size: 50px;
+    }
+    .about-me>span{
+        font-size: 70px;
+        top: 10px;
+    }  
+    .edu-details h2,
+    .projects-section h2,
+    .skills-section h2,
+    .contact h2{
+        font-size: 50px;
+    } 
+    .edu-details>span,
+    .projects-section>span,
+    .skills-section>span,
+    .contact>span{
+        font-size: 70px;
+        left:35%;
+        top : 10px
+    }
+    .projects-section>span{
+        left:37.5%;
+    }
+    .skills-section>span{
+        left:36%;
+    }
+    .contact>span{
+        left:33%;
+    }
+    .card-img, .card-img-bottom, .card-img-top{
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        object-position: top;
+        transition: 3s all;
+    }
+    .card-img-top:hover{
+        object-position: bottom;
+    }
+    .card-body{
+        background-color: #1A1A1A;
+        color: #ffffff;
+    }
+    .list-group-flush>.list-group-item{
+        
+    }
+    .list-group-flush>.list-group-item{
+        color: #ffffff;
+        background-color: #1A1A1A;
+    }
+    .skill{
+        margin: 0 auto 0;
+        height: 230px;
+    }
+}
+@media (min-width : 992px) {
+    .nav-item a{
+        position: relative;
+    }
+      
+    .nav-item a::before {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 4px;
+          border-radius: 4px;
+          background-color: #FFBD39;
+          bottom: 0;
+          left: 0;
+          transform-origin: right;
+          transform: scaleX(0);
+          transition: transform .3s ease-in-out;
+    }
+      
+    .nav-item a:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+    }
+}
